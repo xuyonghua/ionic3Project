@@ -24,4 +24,5 @@ $ ionic cordova run ios
 ```
 
 Substitute ios for android if not on a Mac.
+![Image text](https://raw.githubusercontent.com/xuyonghua/ionic3Project/master/screenshot/home.png)
 
