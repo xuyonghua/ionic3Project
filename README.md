@@ -21,11 +21,11 @@ $ ionic cordova platform add ios
 $ ionic cordova run ios
 ```
 ### Project ScreenShot:
-![Image text](https://raw.githubusercontent.com/xuyonghua/ionic3Project/master/screenshot/login)
+![Image text](https://raw.githubusercontent.com/xuyonghua/ionic3Project/master/screenshot/login.png)
 ![Image text](https://raw.githubusercontent.com/xuyonghua/ionic3Project/master/screenshot/home.png)
 ![Image text](https://raw.githubusercontent.com/xuyonghua/ionic3Project/master/screenshot/news.png)
 ![Image text](https://raw.githubusercontent.com/xuyonghua/ionic3Project/master/screenshot/setting.png)
-![Image text](https://raw.githubusercontent.com/xuyonghua/ionic3Project/master/screenshot/news-detail)
+![Image text](https://raw.githubusercontent.com/xuyonghua/ionic3Project/master/screenshot/news-detail.png)
 
 ### API use Gankio,163
 Not for commercial use, all rights reserved
