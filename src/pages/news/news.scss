@@ -1,0 +1,26 @@
+page-news {
+  .break{
+    word-wrap:break-word;
+    word-break:break-all;
+  }
+
+
+  /* 控制文本最多显示两行，超出部分以省略号形式展示 */
+  .text-line-clamp-2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+}
+ion-label {
+  margin: 0;
+  display: block;
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: inherit;
+  text-overflow: ellipsis;
+}

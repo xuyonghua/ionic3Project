@@ -1,0 +1,11 @@
+{
+  "name": "myApp",
+  "app_id": "",
+  "type": "ionic-angular",
+  "proxies": [
+    {
+      "path": "/nc",
+      "proxyUrl": "http://c.3g.163.com/nc"
+    }
+  ]
+}

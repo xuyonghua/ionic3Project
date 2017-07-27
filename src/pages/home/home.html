@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>福利</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content style="display: inline-block">
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content
+      refreshingSpinner="ios-small"
+      pullingText="下拉刷新..."
+      refreshingText="正在刷新...">
+    </ion-refresher-content>
+  </ion-refresher>
+
+  <ion-card *ngFor="let image of img_data" style="width: 45%">
+    <img src="{{image.url}}"/>
+  </ion-card>
+</ion-content>

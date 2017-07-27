@@ -1,0 +1,23 @@
+<!--
+  Generated template for the BrowserPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>{{browser.title}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="content">
+  <div class="progress" [hidden]="browser.isLoaded">
+    <div class="progress-inner" id="progress"></div>
+  </div>
+
+  <iframe id="iframe" class="iframe"
+          sandbox="allow-scripts allow-top-navigation allow-pointer-lock allow-same-origin allow-popups allow-forms"
+          [src]="browser.secUrl"
+          (load)="loaded()">
+  </iframe>
+</ion-content>
